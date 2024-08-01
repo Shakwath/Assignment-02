@@ -26,8 +26,8 @@ button{
     border-radius: 30px;
     background: rgb(230, 83, 60);
     border: none;
-    width: 224px;
-    height: 54px;
+    width: 131px;
+    height: 38px;
     padding: 7px 20px;
 }
 #bt{
@@ -89,24 +89,19 @@ a{
     margin-left: 45%;
 }
 #cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
-}
-.card-img{
-    border-radius: 50%;
-}
-.card h5{
-    margin-top: 7%;
-    font-size: 22px;
 }
 .card img{
     border-radius: 50%;
 }
 .card h5{
     margin-top: 8%;
+    font-size: 22px;
 }
 .card p{
-    font-size: 18px;
+    font-size: 10px;
     font-weight: 300;
     line-height: 16px;
     letter-spacing: 0.3px;
@@ -122,15 +117,18 @@ a{
 #run{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20%;
+    gap: 5%;
     background: rgb(43, 42, 42);
-    width: 1060px;
-    height: 371px;
+    border-radius: 14px;
+    align-items: center;
+    padding-left: 5%;
+    margin-bottom: 8%;
+    text-align: left;
 }
 #run-img{
-    border-radius: 16px;
-    width: 366px;
-    height: 312px;
+    border-radius: 14px;
+    width: 95%;
+    margin: 5% 0;
 }
 #BMI{
     background: rgb(34, 34, 34);
@@ -139,6 +137,9 @@ a{
     padding: 4% 8%;
     display: flex;
     justify-content: space-around;
+}
+#calculate-bmi{
+    text-align: left;
 }
 .table{
     width: 310px;
@@ -164,9 +165,32 @@ a{
     padding: 1.5% 1% 3%;
     border-radius: 8px;
 }
-#meet-team{
-    /* gap: 16px; */
+table{
+    margin-top: 15px;
+    border-collapse: collapse;
 }
+td,th{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 8px 10px;
+    width: 150px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 9%; */
+}
+.row{
+    display: flex;
+}
+input{
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 8px 10px;
+    width: 100%;
+}
+
 footer{
     margin-top: -0.1%;
     background: rgb(34, 34, 34);

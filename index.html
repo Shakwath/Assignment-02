@@ -75,7 +75,6 @@
                   <div>
                     <img src="images/run.jpg" id="run-img">
                   </div>
-               
             </section>
             <section id="bm">
                 <div class="title">
@@ -84,11 +83,10 @@
                 </div>
                 <div id="BMI">
                     <div>
-                        <h3 class="head">BMI Calculator Chart</h3>
-                        <!-- 2 collum -5 row -->
-                        <table border="2" class="table">
+                        <h3>BMI Calculator Chart</h3>
+                        <table>
                             <tr>
-                                <th>BMI</th>
+                                <th>BMI </th>
                                 <th>Weight Status</th>
                             </tr>
                             <tr>
@@ -104,18 +102,27 @@
                                 <td>Overweight</td>
                             </tr>
                             <tr>
-                                <td> 30.0 - and Above</td>
+                                <td>30.0 - and Above</td>
                                 <td>Obese</td>
                             </tr>
                         </table>
-                        
                     </div>
-                    <div>
-                        <h3 class="head">Calculate your BMI</h3>
+                    <div id="calculate-bmi">
+                        <h3>Calculate your BMI</h3>
                         <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-                        <input type="email" placeholder="Enter email">
-                        <input type="name" placeholder="Enter name">
-                        <input type="age" placeholder="Enter age">
+                        <div class="form">
+                            <div class="row">
+                                <input type="text" placeholder="Height/cm"></input>
+                                <input type="text" placeholder="Weight/kg"></input>
+                            </div>
+                            <div class="row">
+                                <input type="text" placeholder="Age"></input>
+                                <input type="text" placeholder="Sex"></input>
+                            </div>
+                            <div class="row">
+                                <input type="" placeholder="Select an activity factor">
+                            </div>
+                        </div>
                         <button>Calculate</button>
                     </div>
                 </div>
