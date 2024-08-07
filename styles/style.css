@@ -216,3 +216,67 @@ footer{
 #copyright{
     font-size: x-small;
 }
+@media screen and (max-width: 992px) and (min-width: 577px) {
+    *{
+        margin: 0;
+    }
+    p,td{
+        letter-spacing: 1px;
+    }
+    header{
+        margin: 0;
+        padding-top: 20px;
+    }
+    .nav-bar{
+        gap: 20px;
+    }
+    #banner{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 20%;
+        padding-top: 20px;
+    }
+    #banner img{
+        height: 400px;
+        margin-left: 10px;
+    }
+    .title{
+        width: 80%;
+        margin: 10%;
+    }
+    #cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .card p{
+        width: 55%;
+        margin: 10px 20%;
+    }
+   .card img{
+        margin-top: 15px;
+        margin-bottom: -5px;
+    }
+    #BMI{
+        grid-template-columns: 1fr;
+    }
+    #calculate-bmi{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .form{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .row{
+        gap: 10px;
+    }
+    #fit-p{
+        margin-top: 15px;
+        width: 60%;
+    }
+    #content{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+}
