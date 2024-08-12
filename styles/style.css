@@ -115,7 +115,7 @@ a{
 }
 .circle{
     border-radius: 50%;
-    background-color: coral;
+    background: rgb(230, 83, 60);
     height: 30px;
     width: 30px;
 }
@@ -145,16 +145,26 @@ a{
     height: 120px;
     text-align: center;
 }
+.title h2{
+    font-size: 2em;
+}
 #run{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5%;
+    gap:5%;
     background: rgb(43, 42, 42);
     border-radius: 14px;
     align-items: center;
     padding-left: 5%;
     margin-bottom: 8%;
     text-align: left;
+}
+#run p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#run h1{
+    font-size: 2em;
 }
 #run-img{
     border-radius: 14px;
@@ -163,14 +173,16 @@ a{
 }
 #BMI{
     background: rgb(34, 34, 34);
+    margin: 0 -18.9%;
     margin-bottom: 5%;
-    margin-top: -2%;
-    padding: 4% 8%;
+    padding: 8% 10%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 #calculate-bmi{
     text-align: left;
+    padding-left: 20%;
 }
 .table{
     width: 310px;
@@ -204,22 +216,41 @@ td,th{
     border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 8px 10px;
     width: 150px;
+    text-align: left;
+}
+td{
+    opacity: 0.5;
 }
 .form{
     display: flex;
+    gap: 7px;
     flex-direction: column;
-    /* margin-left: 9%; */
+    margin-left: -5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+#calculate-bmi p{
+    margin-top: 18px;
+}
+#bmm{
+    text-align: left;
 }
 .row{
     display: flex;
 }
-input{
+input ,select{
     color: rgba(255, 255, 255, 0.6);
     border-radius: 4px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
     padding: 8px 10px;
     width: 100%;
+}
+.txt{
+    color: black;
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
 }
 .train-contain{
     position: relative;
@@ -229,6 +260,29 @@ input{
     position: absolute;
     bottom: 8px;
     left: 16px;
+}
+
+#learn{
+    background: rgb(43, 42, 42);
+    padding: 30px 40px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.contents{
+    margin-top: -60px;
+}
+.contents,.learn-content{
+    display: flex;
+    text-align: left;
+}
+.learn-content img{
+    height: 25px;
+    width: 25px;
+}
+#lrn-bt{
+    margin-top: 40px;
+    width: 20%;
+    
 }
 
 footer{
