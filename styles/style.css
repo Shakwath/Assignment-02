@@ -261,6 +261,10 @@ input::placeholder{
     bottom: 8px;
     left: 16px;
 }
+.three-dot{
+    width: 30px;
+    display: none;
+}
 
 #learn{
     background: rgb(43, 42, 42);
@@ -318,6 +322,9 @@ footer{
     *{
         margin: 0;
     }
+    header{
+        margin: 5px 0.3px 0;
+    }
     #banner{
         grid-template-columns: 1fr;
     }
@@ -327,7 +334,7 @@ footer{
     } 
     .card-1{
         top: 15%;
-        right: 6%;
+        right: 2%;
     }
     .card-2{
         text-align: left;
@@ -337,9 +344,10 @@ footer{
     .title{
         margin: 2.5%;
         width: 98%;
+        margin-bottom: 30px;
     }
     #cards{
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
     .card img{
         margin-top: -20px;
@@ -352,6 +360,9 @@ footer{
         gap:6%;
         padding-top: 30px;
     }
+    #run p{
+        font-size: 15px;
+    }
     #run-img{
         width: 95%;
         margin-bottom:45px;
@@ -359,9 +370,11 @@ footer{
     #BMI{
         flex-direction: column;
         margin-bottom: 20px;
+        margin: 0 -17.5%;
     }
     #calculate-bmi{
         margin-top: 25px;
+        margin-left: -70px;
     }
     .row{
         gap: 10px;
@@ -380,6 +393,9 @@ footer{
         grid-template-columns: 1fr;
         gap: 15px;
     }
+    #learn{
+        margin-top: 60px;
+    }
     .fit{
         gap: 15px;
     }
@@ -396,6 +412,26 @@ footer{
     }
     #lrn-bt{
         width: 80%;
+    }
+    #banner{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    #banner-content{
+        font-size: 25px;
+    }
+    #banner p{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .nav-item{
+        display: none;
+    }
+    .three-dot{
+        display: flex;
+    }
+    nav li{
+        gap: 10px;
     }
 
 
