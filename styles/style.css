@@ -296,22 +296,33 @@ footer{
     background: rgb(34, 34, 34);
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding: 5% 8% 1%;
+    gap: 45px;
+    padding: 15px 40px;
 }
-#content{
+#content,.fot-dv{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.fot-dv{
+    padding-left: 150px;
 }
 #foot{
     text-align: center;
 }
 #fit-p{
-    font-size: 16px;
+    font-size: 20px;
+}
+.fot-end p{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .fot-end{
     font-size: 20 px;
     margin-top: 10px;
+}
+.fit{
+    font-size: 60px;
+    margin-bottom: 17px;
 }
 #copyright{
     font-size: x-small;
@@ -324,6 +335,10 @@ footer{
     }
     header{
         margin: 5px 0.3px 0;
+    }
+    main{
+        margin-top: -4px;
+        margin-bottom: -0.2px;s
     }
     #banner{
         grid-template-columns: 1fr;
@@ -401,6 +416,11 @@ footer{
     }
     .fot-end{
         gap: 20px;
+    }
+    .fot-dv{
+        display: flex;
+        flex-direction: column;
+        margin-left: -150px;
     }
     .learn-content{
         gap: 15px;
@@ -501,13 +521,13 @@ footer{
         height: 220px;
     }
     #BMI{
-        grid-template-columns: 1fr;
-        margin-left: -18%;
-        margin-right: -18%;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin: 0 -17.5%;
     }
     #calculate-bmi{
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 25px;
+        margin-left: -140px;
     }
     .form{
         display: grid;
@@ -540,5 +560,14 @@ footer{
         margin-top: 15px;
         width: 60%;
     }
+    #train-img{
+        padding: 20px;
+        border-radius: 25px;
+        gap: 10px;
+    }
+    .fot-dv{
+        margin-left: -150px;
+    }
+    
     
 }
